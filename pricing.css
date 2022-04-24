@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color:rgb(104, 68, 236)
+}
+body{
+    background-color:rgb(194, 85, 104);
+    font-family: sans-serif;
+    width: 100%;
+    height: 200px;
+}
+h1{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.main{
+    margin:  100px;
+    background-color: rgb(250, 245, 245);
+    border-radius: 15px;
+    height: 600px;
+    
+}
+#par1{
+    margin-left: 0px;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+.pricing{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.price{
+    margin-left: 50px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-color:rgb(194, 85, 104);
+    border-radius: 20px;
+    
+
+
+}
+h4{
+    margin-top: 20px;
+    
+    font-size: 1.2em;
+    font-family: sans-serif;
+    opacity: 0.5;
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+   text-align: center;
+   font-size:  30px;
+   font-weight: bold;
+}
+#list{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    display: flex;
+}
+#elem{
+    margin-top: 20px;
+}
+button{
+    width: 150px;
+    margin-top: 80px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 80px;
+    background-color: rgb(194, 85, 104);
+    color: white;
+    border-color: white;
+    margin-top: -5px;
+}
+.price:hover{
+    background-color:rgb(194, 85, 104);
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.4s ease
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(194, 85, 104);
+    
+}
+.nav_bar{
+    background-color: rgb(194, 85, 104);
+    display: flex ;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-color: yellow;
+
+}
+.nav_links{
+    margin-left: 150px;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    align-items: center;
+}
+#link1{
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#link{
+    text-decoration: none;
+    color: rgb(214, 208, 208);
+    margin-left: 30px;
+    
+}
+
+
+.download{
+    margin-left: 200px;
+}
+#downl{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(194, 85, 104);
+    margin-top: 0px;
+}
+#logomix{
+    font-size: 2em;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+.top {
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  opacity: 0.7;
+}
+ul {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  .list2{
+      flex-direction: column;
+  }
+  .logo {
+    color: rgb(194, 85, 104);
+    margin-top: 3px;
+    font-size: 40px;
+    margin-left: -60px;
+    display: flex;
+  }
+  ul li {
+    padding: 15px;
+  }
+  ul li:hover {
+    color: rgb(194, 85, 104);
+    border-bottom: 0.5px solid rgb(194, 85, 104);
+  }
+  .bar {
+    margin-left: 600px;
+    transform: scale(1.1);
+  }  
+  #logo9 {
+    width: 200px;
+    height: 200px;
+    top: 0;
+    transform: translate(0, -90px);
+  }
+  ul {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .logomix {
+    color: rgb(194, 85, 104);
+    margin-top: 3px;
+    font-size: 40px;
+    margin-left: -60px;
+    display: flex;
+  }
+  ul li {
+    padding: 15px;
+  }
+  .wrd1 {
+    margin-left: -45px;
+    font-size: 0.75em;
+  }
+  .wrd2 {
+    color: white;
+    font-size: 0.75em;
+  }
+  #button{
+      margin-top: 30px;
+  }
+  #button2{
+      margin-top: 12px;
+  }
+  .list2{
+      margin-left: 30px;
+  }
+  ul li a:hover{
+color: rgb(194, 85, 104);
+  }
